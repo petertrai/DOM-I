@@ -89,8 +89,17 @@ cta.querySelector('button').textContent = siteContent.cta.button
 //nav
 const nav = document.querySelector('nav');
 nav.children[0].textContent = siteContent.nav['nav-item-1']
+nav.children[0].classList.add('italic')
 nav.children[1].textContent = siteContent.nav['nav-item-2']
+nav.children[1].classList.add('italic')
 nav.children[2].textContent = siteContent.nav['nav-item-3']
+nav.children[2].classList.add('italic')
 nav.children[3].textContent = siteContent.nav['nav-item-4']
+nav.children[3].classList.add('italic')
 nav.children[4].textContent = siteContent.nav['nav-item-5']
+nav.children[4].classList.add('italic')
 nav.children[5].textContent = siteContent.nav['nav-item-6']
+nav.children[5].classList.add('italic')
+
+console.log(nav);
+
